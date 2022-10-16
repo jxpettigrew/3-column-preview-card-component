@@ -1,0 +1,60 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.background {
+    background-color: var(--very-light-gray);
+    height: 800px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.vehicle-type-card {
+    width: 307px;
+    color: var(--transparent-white);
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-right: 45px;
+}
+
+.sedans-section {
+    background-color: var(--bright-orange);
+}
+
+.suvs-section {
+    background-color: var(--dark-cyan);
+}
+
+.luxury-section {
+    background-color: var(--very-dark-cyan);
+}
