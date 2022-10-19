@@ -58,3 +58,22 @@ p {
 .luxury-section {
     background-color: var(--very-dark-cyan);
 }
+
+@media screen and (max-width: 600px) {
+    .background {
+        width: 375px;
+        height: 1502px;
+        margin: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 327px;
+        height: 1329px;
+    }
+
+    .vehicle-type-card {
+        width: 327px;
+        height: 443px;
+    }
+}
