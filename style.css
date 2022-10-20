@@ -12,8 +12,9 @@ body {
 
 h3 {
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 35px;
+    font-size: 40px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 p {
@@ -51,12 +52,35 @@ p {
     background-color: var(--bright-orange);
 }
 
+.sedans-section .learn-more-button {
+    color: var(--bright-orange);
+}
+
 .suvs-section {
     background-color: var(--dark-cyan);
 }
 
+.suvs-section .learn-more-button {
+    color: var(--dark-cyan);
+}
+
 .luxury-section {
     background-color: var(--very-dark-cyan);
+}
+
+.luxury-section .learn-more-button {
+    color: var(--very-dark-cyan);
+}
+
+.learn-more-button {
+    background-color: var(--very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 60px;
 }
 
 @media screen and (max-width: 600px) {
