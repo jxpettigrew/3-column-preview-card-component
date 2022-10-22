@@ -56,12 +56,20 @@ p {
     color: var(--bright-orange);
 }
 
+.sedans-section .learn-more-button:hover {
+    background-color: var(--bright-orange);
+}
+
 .suvs-section {
     background-color: var(--dark-cyan);
 }
 
 .suvs-section .learn-more-button {
     color: var(--dark-cyan);
+}
+
+.suvs-section .learn-more-button:hover {
+    background-color: var(--dark-cyan);
 }
 
 .luxury-section {
@@ -72,15 +80,23 @@ p {
     color: var(--very-dark-cyan);
 }
 
+.luxury-section .learn-more-button:hover {
+    background-color: var(--very-dark-cyan);
+}
+
 .learn-more-button {
     background-color: var(--very-light-gray);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
-    height: 50px;
-    width: 150px;
+    padding: 15px 32px;
     border: none;
     border-radius: 30px;
     margin-top: 60px;
+}
+
+.learn-more-button:hover {
+    border: 2px solid var(--very-light-gray);
+    color: var(--very-light-gray);
 }
 
 @media screen and (max-width: 600px) {
@@ -99,5 +115,25 @@ p {
     .vehicle-type-card {
         width: 327px;
         height: 443px;
+    }
+
+    .learn-more-button {
+        margin-top: 10px;
+    }
+
+    .attribution {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .background {
+        margin: -10px;
+    }
+
+    .attribution {
+        margin-left: 0;
     }
 }
