@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://github.com/jxpettigrew/3-column-preview-card-component)
-- [Live Site](https://your-live-site-url.com)
+- [Live Site](https://jxpettigrew.github.io/3-column-preview-card-component/)
 
 ## My process
 
